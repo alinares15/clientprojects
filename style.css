@@ -1,1 +1,27 @@
-body {background-color:white;}
+body {
+    background-color: white;
+    }
+
+.button {
+    background-color: #4253f4;
+    color: white;
+    text-align: center;
+
+}
+
+#inputfield {
+    width: 35%;
+}
+
+#userinput{
+    margin: auto;
+}
+
+h1{
+    color: #4253f4;
+    background-color:white;
+    font-family: 'Maiden Orange', cursive;
+}
+#rf{
+     color: #4253f4;
+}
