@@ -1,6 +1,7 @@
 body {
     background-color: white;
     background-image: url("https://techcrunch.com/wp-content/uploads/2017/05/onedrive-illo3.jpg?w=730&crop=1");
+
     }
 
 .button {
@@ -30,4 +31,7 @@ h1{
 #rf{
     background-color: #4253f4;
     color: white;
+}
+#imageContainer{
+    background-size:100px;
 }

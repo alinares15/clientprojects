@@ -1,5 +1,4 @@
 $("#searchSong").click(function(){
-console.log("hello")
     $.ajax({
         url: `https://api.soundcloud.com/tracks?q=${$('#inputfield').val()}&client_id=5aa8e389ba4e24b6106af5159ab3e344`,
         method: "GET",
@@ -8,9 +7,9 @@ console.log("hello")
             $('#imageContainer').empty();
             response.forEach(function(songData){
                 $('#imageContainer').append(`<h1>${songData.title}</h1>`);
-                $('#imageContainer').append(`<img src='${songData.user.avatar_url}'>`);
+                $('#imageContainer').append(`<img src='${songData.user.avatar_url}'/>`);
                 $('#imageContainer').append(`<p>${songData.genre}</p>`);
-                $('#imageContainer').append(`<p>${songData.permalink_url}</p>`);
+                $('#imageContainer').append(`<a href='${songData.permalink_url}'>link</a>`);
 
             });
 
