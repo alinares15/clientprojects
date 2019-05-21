@@ -10,7 +10,7 @@ console.log("hello")
                 $('#imageContainer').append(`<h1>${songData.title}</h1>`);
                 $('#imageContainer').append(`<img src='${songData.user.avatar_url}'>`);
                 $('#imageContainer').append(`<p>${songData.genre}</p>`);
-                $('#imageContainer').append(`<p>${songData.likes_count}</p>`);
+                $('#imageContainer').append(`<p>${songData.permalink_url}</p>`);
 
             });
 

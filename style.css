@@ -1,16 +1,21 @@
 body {
     background-color: white;
+    background-image: url("https://techcrunch.com/wp-content/uploads/2017/05/onedrive-illo3.jpg?w=730&crop=1");
     }
 
 .button {
     background-color: #4253f4;
     color: white;
     text-align: center;
+    border: white;
+    width: 50px;
+    height: 50px;
 
 }
 
 #inputfield {
-    width: 35%;
+    width: 200px;
+    height: 25px;
 }
 
 #userinput{
@@ -19,9 +24,10 @@ body {
 
 h1{
     color: #4253f4;
-    background-color:white;
     font-family: 'Maiden Orange', cursive;
+    font-size: 50px;
 }
 #rf{
-     color: #4253f4;
+    background-color: #4253f4;
+    color: white;
 }
