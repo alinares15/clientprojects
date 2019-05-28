@@ -9,8 +9,7 @@ $("#searchSong").click(function(){
                 $('#imageContainer').append(`<h1>${songData.title}</h1>`);
                 $('#imageContainer').append(`<img src='${songData.user.avatar_url}'/>`);
                 $('#imageContainer').append(`<p>${songData.genre}</p>`);
-                $('#imageContainer').append(`<a href='${songData.permalink_url}'>link</a>`);
-
+                $('#imageContainer').append(`<a href='${songData.permalink_url}'>Link to Song</a>`);
             });
 
         },
